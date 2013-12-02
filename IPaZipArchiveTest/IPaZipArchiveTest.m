@@ -8,7 +8,7 @@
 
 #import "IPaZipArchiveTest.h"
 #import "IPaZipArchiveWriter.h"
-#import "IPaZipArchiveReader.h"
+//#import "IPaZipArchiveReader.h"
 @interface IPaZipArchiveTest() <IPaZipArchiveReaderDelegate>
 @end
 @implementation IPaZipArchiveTest

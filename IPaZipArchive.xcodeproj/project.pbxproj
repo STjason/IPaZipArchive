@@ -17,8 +17,6 @@
 		6E38DDDD16816B97002C0849 /* IPaZipArchiveTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E38DDDC16816B97002C0849 /* IPaZipArchiveTest.m */; };
 		6E38DDE416816C40002C0849 /* IPaZipArchiveWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E38DDE316816C40002C0849 /* IPaZipArchiveWriter.m */; };
 		6E38DDE516816C40002C0849 /* IPaZipArchiveWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E38DDE316816C40002C0849 /* IPaZipArchiveWriter.m */; };
-		6E38DDE816816CEE002C0849 /* IPaZipArchiveReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E38DDE716816CEE002C0849 /* IPaZipArchiveReader.m */; };
-		6E38DDE916816CEE002C0849 /* IPaZipArchiveReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E38DDE716816CEE002C0849 /* IPaZipArchiveReader.m */; };
 		6E38DDFC16818FC1002C0849 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E38DDFB16818FC1002C0849 /* libz.1.2.5.dylib */; };
 		6E38DDFE16818FD4002C0849 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E38DDFD16818FD4002C0849 /* SenTestingKit.framework */; };
 		6E38DE0016819055002C0849 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E38DDB916816AD1002C0849 /* ioapi.c */; };
@@ -60,8 +58,6 @@
 		6E38DDDE16816B97002C0849 /* IPaZipArchiveTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPaZipArchiveTest-Prefix.pch"; sourceTree = "<group>"; };
 		6E38DDE216816C40002C0849 /* IPaZipArchiveWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPaZipArchiveWriter.h; sourceTree = "<group>"; };
 		6E38DDE316816C40002C0849 /* IPaZipArchiveWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPaZipArchiveWriter.m; sourceTree = "<group>"; };
-		6E38DDE616816CEE002C0849 /* IPaZipArchiveReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPaZipArchiveReader.h; sourceTree = "<group>"; };
-		6E38DDE716816CEE002C0849 /* IPaZipArchiveReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPaZipArchiveReader.m; sourceTree = "<group>"; };
 		6E38DDFB16818FC1002C0849 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		6E38DDFD16818FD4002C0849 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -123,8 +119,6 @@
 				6E38DDB716816AD1002C0849 /* minizip */,
 				6E38DDE216816C40002C0849 /* IPaZipArchiveWriter.h */,
 				6E38DDE316816C40002C0849 /* IPaZipArchiveWriter.m */,
-				6E38DDE616816CEE002C0849 /* IPaZipArchiveReader.h */,
-				6E38DDE716816CEE002C0849 /* IPaZipArchiveReader.m */,
 				6E38DDA916816A8D002C0849 /* Supporting Files */,
 			);
 			path = IPaZipArchive;
@@ -276,7 +270,6 @@
 				6E38DDC316816AD1002C0849 /* unzip.c in Sources */,
 				6E38DDC416816AD1002C0849 /* zip.c in Sources */,
 				6E38DDE416816C40002C0849 /* IPaZipArchiveWriter.m in Sources */,
-				6E38DDE816816CEE002C0849 /* IPaZipArchiveReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +283,6 @@
 				6E38DE0616819055002C0849 /* zip.c in Sources */,
 				6E38DDDD16816B97002C0849 /* IPaZipArchiveTest.m in Sources */,
 				6E38DDE516816C40002C0849 /* IPaZipArchiveWriter.m in Sources */,
-				6E38DDE916816CEE002C0849 /* IPaZipArchiveReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +429,7 @@
 				6E38DDE116816B97002C0849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
