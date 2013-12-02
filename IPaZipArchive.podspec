@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.framework    = 'libz.1.2.5.dylib'
   s.requires_arc = true
-  s.source       = { :git => 'https://github.com/STjason/IPaZipArchive.git', :commit => '0011a683ddb1757d21c1d65bed976f4a19243f8f' }
+  s.source       = { :git => 'https://github.com/STjason/IPaZipArchive.git', :commit => '17069601c2d24e19896540c636d3ead54b806848' }
   s.source_files = 'IPaZipArchive/*.{h,m}', 'IPaZipArchive/minizip/*.{h,m}'
   s.description  = 'Objective C Zip tool, base on ZipArchive MIT licence ' \
                    'need to add libz.1.2.5.dylib to your project ' \
