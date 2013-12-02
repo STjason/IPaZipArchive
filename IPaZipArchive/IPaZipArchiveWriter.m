@@ -7,7 +7,7 @@
 //
 
 #import "IPaZipArchiveWriter.h"
-#include "minizip/zip.h"
+#import "minizip/zip.h"
 @implementation IPaZipArchiveWriter
 {
     zipFile	_zipFile;

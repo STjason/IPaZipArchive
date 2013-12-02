@@ -7,7 +7,7 @@
 //
 
 #import "IPaZipArchiveReader.h"
-#include "minizip/unzip.h"
+#import "minizip/unzip.h"
 
 @implementation IPaZipArchiveReader
 {
