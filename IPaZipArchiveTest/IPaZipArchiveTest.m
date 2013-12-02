@@ -132,6 +132,6 @@
 #pragma mark - IPaZipArchiveReaderDelegate
 -(void)onIPaZipArchiveReader:(IPaZipArchiveReader *)_reader didProcessFile:(NSString*)fileName
 {
-    NSLog(@"Unit Test print progress:%f",_reader.unzipProgress);
+//    NSLog(@"Unit Test print progress:%f",_reader.unzipProgress);
 }
 @end

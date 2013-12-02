@@ -7,7 +7,7 @@
 //
 
 #import "IPaZipArchiveReader.h"
-#import "minizip/unzip.h"
+#include "minizip/unzip.h"
 
 @implementation IPaZipArchiveReader
 {
@@ -214,10 +214,10 @@
 	}while( ret==UNZ_OK && UNZ_OK!=UNZ_END_OF_LIST_OF_FILE );
 	return success;
 }
--(CGFloat)unzipProgress
-{
-    return (CGFloat) processFileSize / (CGFloat)originalFileSize;
-}
+//-(CGFloat)unzipProgress
+//{
+//    return (CGFloat) processFileSize / (CGFloat)originalFileSize;
+//}
 -(BOOL)isEncrypted
 {
     return isEncrypted;
